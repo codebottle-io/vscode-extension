@@ -3,6 +3,7 @@
 	"displayName": "CodeBottle",
 	"description": "Code snippets integration with CodeBottle",
 	"version": "0.0.1",
+	"license": "MIT",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
