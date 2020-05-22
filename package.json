@@ -10,7 +10,8 @@
 		"vscode": "^1.45.0"
 	},
 	"categories": [
-		"Other"
+		"Programming Languages",
+		"Snippets"
 	],
 	"activationEvents": [
 		"onView:codebottle",
@@ -18,12 +19,10 @@
 	],
 	"main": "./src/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "codebottle.search",
-				"title": "Search CodeBottle"
-			}
-		]
+		"commands": [{
+			"command": "codebottle.search",
+			"title": "Search CodeBottle"
+		}]
 	},
 	"scripts": {
 		"lint": "eslint .",
