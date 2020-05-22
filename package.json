@@ -2,7 +2,7 @@
 	"name": "codebottle",
 	"displayName": "CodeBottle",
 	"description": "Code snippets integration with CodeBottle",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publisher": "codebottle",
 	"repository": "https://github.com/codebottle-io/vscode-extension",
 	"license": "MIT",
@@ -18,10 +18,12 @@
 	],
 	"main": "./src/extension.js",
 	"contributes": {
-		"commands": [{
-			"command": "codebottle.search",
-			"title": "Search CodeBottle"
-		}]
+		"commands": [
+			{
+				"command": "codebottle.search",
+				"title": "Search CodeBottle"
+			}
+		]
 	},
 	"scripts": {
 		"lint": "eslint .",
