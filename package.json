@@ -2,7 +2,7 @@
 	"name": "codebottle",
 	"displayName": "CodeBottle",
 	"description": "Code snippets integration with CodeBottle",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "codebottle",
 	"repository": "https://github.com/codebottle-io/vscode-extension",
 	"license": "MIT",
